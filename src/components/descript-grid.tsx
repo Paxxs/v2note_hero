@@ -17,7 +17,9 @@ import {
   FileTextIcon,
   GlobeIcon,
   InputIcon,
+  RocketIcon,
 } from "@radix-ui/react-icons";
+import { OrbitingCirclesAtOnePlace } from "./at-one-place";
 
 const files = [
   {
@@ -91,10 +93,12 @@ const features = [
     description:
       "Experience v2note in two distinct flavors: Native Application and Service Mode. Enjoy the familiarity of a native app interface, or switch to Service Mode for browser-based access and note editing across local and wide area networks.",
     className: "col-span-3 lg:col-span-2",
-    background: <></>,
+    background: (
+      <OrbitingCirclesAtOnePlace className="absolute -top-20 h-[600px] w-[600px] transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105 md:-right-4"></OrbitingCirclesAtOnePlace>
+    ),
   },
   {
-    Icon: CalendarIcon,
+    Icon: RocketIcon,
     name: "Single Binary, Installation-Free",
     description:
       "Designed with intentionality, v2note presents itself as a single file, eliminating the need for installation hassles. Simply open and unleash your creativity, hassle-free.",

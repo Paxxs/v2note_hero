@@ -1,14 +1,10 @@
-"use client";
 import { DescriptTionGrid } from "@/components/descript-grid";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { Spotlight } from "@/components/ui/Spotlight";
 import DotPattern from "@/components/ui/dot-pattern";
-import { LampContainer } from "@/components/ui/lamp";
 import TextReveal from "@/components/ui/text-reveal";
 import { cn } from "@/lib/utils";
-import { useTheme } from "next-themes";
 import Link from "next/link";
-import { useLayoutEffect } from "react";
 
 export default function Home() {
   // const { setTheme } = useTheme();
@@ -52,7 +48,7 @@ export default function Home() {
             v2Note is open source and powered by open source software. <br />{" "}
             The code is available on{" "}
             <Link
-              href={""}
+              href={"https://github.com/Paxxs/Evo-Note"}
               target="_blank"
               rel="noreferrer"
               className="underline underline-offset-4"
