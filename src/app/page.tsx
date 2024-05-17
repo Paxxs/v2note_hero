@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <section>
-        <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+        <div className="h-[40rem] w-full flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
           <Spotlight
             className="-top-40 left-0 md:left-60 md:-top-20"
             fill="white"
@@ -15,10 +15,7 @@ export default function Home() {
               V2Note <br /> The Way To Note.
             </h1>
             <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-              Spotlight effect is a great way to draw attention to a specific
-              part of the page. Here, we are drawing the attention towards the
-              text section of the page. I don&apos;t know why but I&apos;m
-              running out of copy.
+              A Cutting-Edge, Privacy-Centric Note-taking Experience
             </p>
           </div>
         </div>
